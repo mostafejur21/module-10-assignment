@@ -8,12 +8,12 @@ class LandscapeScreen extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.start,
       children: [
-        CircleAvatar(
+        const CircleAvatar(
           backgroundImage: NetworkImage(
               "https://scontent.fdac147-1.fna.fbcdn.net/v/t39.30808-6/307344552_1528904620878058_2222338820037627893_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=174925&_nc_ohc=Tn8t1XwdHG4AX_pgTLN&_nc_ht=scontent.fdac147-1.fna&oh=00_AfDF9Zgltv_oZG0KH-RWpvfYi3TPwtNud2E2XUhXWcF45Q&oe=64B84BCE"),
           radius: 100,
         ),
-        SizedBox(
+        const SizedBox(
           width: 10,
         ),
         Expanded(
